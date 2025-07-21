@@ -86,11 +86,18 @@ export const getSanitizedConfig = (
       resume: {
         fileUrl: config?.resume?.fileUrl || '',
       },
-      skills: {
-        technical: config?.skills?.technical || [],
-        frameworksAndLibraries: config?.skills?.frameworksAndLibraries || [],
-        tools: config?.skills?.tools || [],
-      },
+      skills:
+        typeof config.skills === 'object' && !Array.isArray(config.skills)
+          ? {
+              technical: config.skills.technical || [],
+              frameworksAndLibraries: config.skills.frameworksAndLibraries || [],
+              tools: config.skills.tools || [],
+            }
+          : {
+              technical: Array.isArray(config.skills) ? config.skills : [],
+              frameworksAndLibraries: [],
+              tools: [],
+            },
       experiences:
         config?.experiences?.filter(
           (experience) =>
