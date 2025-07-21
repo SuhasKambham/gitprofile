@@ -340,7 +340,11 @@ interface Config {
   /**
    * Skill list
    */
-  skills?: Array<string>;
+  skills?: {
+    technical?: string[];
+    frameworksAndLibraries?: string[];
+    tools?: string[];
+  };
 
   /**
    * Experience list
