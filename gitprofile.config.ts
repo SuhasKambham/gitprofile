@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Suhas Kambham', description: '', imageURL: '' },
+  seo: { title: 'Suhas Kambham', description: 'hello world 1234566798', imageURL: '' },
   social: {
     linkedin: 'kambhamsuhas',
     x: 'SuhasKambham',
@@ -232,6 +232,18 @@ const CONFIG = {
       from: '2017',
       to: '2021',
     },
+    {
+      institution: '12th Grade - Physics, Chemistry, Mathematics, Computers',
+      degree: 'Narayana PU College',
+      from: '2015',
+      to: '2017',
+    },
+    {
+      institution: '10th Grade - Science, Mathamatics, Computers',
+      degree: 'RYAN International School',
+      from: '2014',
+      to: '2015',
+    },
   ],
   publications: [
     {
@@ -257,12 +269,16 @@ const CONFIG = {
         'Various systems were developed to assist those with vision impairments and enhance their standard of life. Regrettably, the majority of these systems have restricted functionality. We decided to build a model that detects all possible surrounding things and guides them through voice description. Our main objective is to detect the obstacles in the person’s pathway and warn them using voice description. The model can assist blind people from the surrounding obstacles which exist in their pathway. The primary goal of the model is to identify the nearby obstacles - vehicles, animals, persons, objects, etc, in the person’s pathway and guide or warn them using voice description. Our proposed system integrates advanced real-time obstacle detection and voice-guided navigation using a novel combination of DepthNet module with convolutional LSTM layers, enhancing spatial context awareness compared to traditional models. This approach, along with fine-tuning on diverse datasets such as MS COCO and BDD100K, ensures robust performance in varied environments and conditions. The real-time guidance capability is further improved by the integration of optical flow algorithms, which accurately estimate motion in dynamic scenes. This comprehensive solution significantly enhances the assistive technology for those with visual impairments.',
     },
   ],
+
+  /*
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
+
+  */
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -273,7 +289,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     
-  // Useful if you want to support a single color mode
+    // Useful if you want to support a single color mode
     disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
@@ -326,7 +342,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/SuhasKambham"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
