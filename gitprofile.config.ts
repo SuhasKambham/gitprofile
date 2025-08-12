@@ -48,6 +48,22 @@ const CONFIG = {
             'https://drive.google.com/file/d/175RBBI_s3xnfftCJvPtAvoieDXVpGXDS/view?usp=sharing',
           link: 'https://fit-fuel-lyart.vercel.app/',
         },
+        {
+          title: 'Travellodge',
+          description:
+            'TravelLodge is a full-stack MERN platform for exploring, listing, and managing travel accommodations, featuring dynamic city listings, Mapbox maps, secure authentication, cloud-based image hosting, and a responsive UI powered by a robust Node.js + MongoDB backend.',
+          imageUrl:
+            'https://drive.google.com/file/d/1q5uZU5CHc7v_5Khpsqky7XxAa_ZN9tBf/view?usp=sharing',
+          link: 'https://travellodge-5emi.onrender.com/listings',
+        },
+        {
+          title: 'Mindbloom Emotional Flow',
+          description:
+            'MindBloom is a digital wellness app that fosters emotional intelligence and self-awareness through daily journaling and AI-powered mood tracking.',
+          imageUrl:
+            'https://drive.google.com/file/d/1ltgK7rvXh6eugXrXk1ccQnJ680diE0mX/view?usp=sharing',
+          link: 'https://preview--mindbloom-inner-reflections.lovable.app/',
+        },
       ],
     },
   },
