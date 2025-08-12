@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'NxtWave Day Planner',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'NxtWave Day Planner is a task management app that lets users schedule, organize, and track daily activities with simple CRUD functionality and a clean interface.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://drive.google.com/file/d/1WTwIAQwjbFoZnrYBPDz3lx0nf14u1sk2/view?usp=sharing',
+          link: 'https://nxt-wave-day-planner.vercel.app/login',
         },
         {
-          title: 'Project Name',
+          title: 'FitFuel',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'FitFuel is a fitness and meal tracking platform that helps users log workouts, monitor nutrition, and track progress toward their health goals.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://drive.google.com/file/d/175RBBI_s3xnfftCJvPtAvoieDXVpGXDS/view?usp=sharing',
+          link: 'https://fit-fuel-lyart.vercel.app/',
         },
       ],
     },
@@ -177,16 +177,22 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: 'Machine Learning - Stanford University',
-      body: 'Engineered and optimized core machine learning models leveraging convex optimization, gradient descent variants, kernel methods, and regularization frameworks for robust predictive performance.',
-      year: 'October 2019',
-      link: 'https://coursera.org/share/dd7533b51ac8ede8d77ff11e33ffee9d',
+      name: 'Microsoft Power BI Desktop for Business Intelligence',
+      body: 'Designed interactive BI dashboards and reports from raw data using advanced data transformation, AI-powered visuals, and industry-grade Power BI techniques.',
+      year: 'June 2025',
+      link: 'https://drive.google.com/file/d/1QHQB1LwDJw_dl-kJ-u-KsIQe7dWd7dD5/view?usp=sharing',
     },
     {
       name: 'Skillovilla Machine Learning and Data science',
       body: 'Executed full-stack data science workflows involving Python scripting, statistical modeling, hypothesis testing, data mining, and advanced machine learning across structured and unstructured datasets.',
       year: 'October 2024',
       link: 'https://drive.google.com/file/d/1TzNTUQ7TcuRuQkKhuWScQWUT3iw-Ogt5/view?usp=sharing',
+    },
+    {
+      name: 'Data Science A-Z: Hands-On Exercises & ChatGPT',
+      body: 'Built end-to-end data science workflows using SQL, regression modeling, Tableau visualizations, CAP analysis, and statistical techniques like VIF and hypothesis testing.',
+      year: 'December 2022',
+      link: 'https://drive.google.com/file/d/1goBPvM-x1q5c-gfEbB7iU7BzvwsxxCpQ/view?usp=sharing',
     },
     {
       name: 'Machine Learning A-Z: AI, Python & R',
@@ -201,27 +207,21 @@ const CONFIG = {
       link: 'https://drive.google.com/file/d/1DMM5lDCxxqcSzohmm6Ivbh598uMXVY_s/view?usp=sharing',
     },
     {
-      name: 'Data Science A-Z: Hands-On Exercises & ChatGPT',
-      body: 'Built end-to-end data science workflows using SQL, regression modeling, Tableau visualizations, CAP analysis, and statistical techniques like VIF and hypothesis testing.',
-      year: 'December 2022',
-      link: 'https://drive.google.com/file/d/1goBPvM-x1q5c-gfEbB7iU7BzvwsxxCpQ/view?usp=sharing',
-    },
-    {
-      name: 'Microsoft Power BI Desktop for Business Intelligence',
-      body: 'Designed interactive BI dashboards and reports from raw data using advanced data transformation, AI-powered visuals, and industry-grade Power BI techniques.',
-      year: 'June 2025',
-      link: 'https://drive.google.com/file/d/1QHQB1LwDJw_dl-kJ-u-KsIQe7dWd7dD5/view?usp=sharing',
-    },
-    {
       name: 'Deep Learning A-Z: Neural Networks, AI',
       body: 'Completed Deep Learning A-Z, gaining practical intuition and hands-on experience with cutting-edge architectures like CNNs, RNNs, SOMs, and Autoencoders.',
       year: 'May 2020',
       link: 'https://drive.google.com/file/d/1DMM5lDCxxqcSzohmm6Ivbh598uMXVY_s/view?usp=sharing',
     },
+    {
+      name: 'Machine Learning - Stanford University',
+      body: 'Engineered and optimized core machine learning models leveraging convex optimization, gradient descent variants, kernel methods, and regularization frameworks for robust predictive performance.',
+      year: 'October 2019',
+      link: 'https://coursera.org/share/dd7533b51ac8ede8d77ff11e33ffee9d',
+    },
   ],
   educations: [
     {
-      institution: 'B.Tech - Computer Science and Engineering',
+      institution: 'M.Tech - Computer Science and Engineering',
       degree: 'Amrita Vishwa Vidyapeetham',
       from: '2021',
       to: '2023',
@@ -272,7 +272,8 @@ const CONFIG = {
     defaultTheme: 'lofi',
 
     // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
+    
+  // Useful if you want to support a single color mode
     disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
